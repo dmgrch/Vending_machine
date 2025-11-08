@@ -146,8 +146,6 @@ namespace VendingMachine
         {
             if (amount == 0) return true;
             
-            Console.WriteLine($"Выдаем сдачу: {amount} руб.");
-            
             coins.Sort((a, b) => b.Denomination.CompareTo(a.Denomination));
             
             decimal remaining = amount;
@@ -171,12 +169,6 @@ namespace VendingMachine
                 if (remaining == 0) break;
             }
             
-            if (remaining > 0)
-            {
-                Console.WriteLine("Ошибка! Не удалось выдать сдачу.");
-                success = false;
-            }
-            
             return success;
         }
 
@@ -186,10 +178,7 @@ namespace VendingMachine
             {
                 Console.WriteLine($"Операция отменена. Возврат: {currentBalance} руб.");
                 bool refundGiven = GiveChange(currentBalance);
-                if (refundGiven)
-                {
-                    currentBalance = 0;
-                }
+                currentBalance = 0;
             }
         }
 

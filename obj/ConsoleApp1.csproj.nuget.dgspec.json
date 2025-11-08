@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dimagrach\\itmo\\oop\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\user\\itmo\\oop\\Vending_machine\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dimagrach\\itmo\\oop\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\user\\itmo\\oop\\Vending_machine\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dimagrach\\itmo\\oop\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\user\\itmo\\oop\\Vending_machine\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\dimagrach\\itmo\\oop\\ConsoleApp1\\ConsoleApp1.csproj",
-        "packagesPath": "C:\\Users\\dimagrach\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dimagrach\\itmo\\oop\\ConsoleApp1\\obj\\",
+        "projectPath": "C:\\Users\\user\\itmo\\oop\\Vending_machine\\ConsoleApp1.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\itmo\\oop\\Vending_machine\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dimagrach\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
